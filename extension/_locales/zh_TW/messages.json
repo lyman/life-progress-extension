@@ -1,0 +1,34 @@
+{
+  "extName":           { "message": "人生進度 · 新分頁" },
+  "extDesc":           { "message": "新分頁 + 工具列彈出視窗，隨時查看人生進度條。" },
+  "cmdOpenPopup":      { "message": "開啟人生進度彈出視窗" },
+  "pageTitle":         { "message": "人生進度" },
+  "label":             { "message": "人生進度" },
+  "searchPlaceholder": { "message": "搜尋…" },
+  "progressAria": {
+    "message": "人生進度 $pct$%",
+    "placeholders": { "pct": { "content": "$1" } }
+  },
+  "dayStat": {
+    "message": "今天是你人生的第 $lived$ 天（$age$ 歲）",
+    "placeholders": { "lived": { "content": "$1" }, "age": { "content": "$2" } }
+  },
+  "remainStat": {
+    "message": "剩餘 $left$ 天 · $years$ 年 · 到期 $end$",
+    "placeholders": { "left": { "content": "$1" }, "years": { "content": "$2" }, "end": { "content": "$3" } }
+  },
+  "dayStatShort": {
+    "message": "第 $lived$ 天（$age$ 歲）",
+    "placeholders": { "lived": { "content": "$1" }, "age": { "content": "$2" } }
+  },
+  "remainStatShort": {
+    "message": "剩 $left$ 天 · $years$ 年 · $end$",
+    "placeholders": { "left": { "content": "$1" }, "years": { "content": "$2" }, "end": { "content": "$3" } }
+  },
+  "settings":     { "message": "設定" },
+  "birthday":     { "message": "出生日期" },
+  "totalDays":    { "message": "預期壽命（天）" },
+  "invalidInput": { "message": "請填寫合法的日期和大於 0 的天數" },
+  "reset":        { "message": "恢復預設" },
+  "save":         { "message": "儲存" }
+}

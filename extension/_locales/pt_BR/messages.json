@@ -1,0 +1,34 @@
+{
+  "extName":           { "message": "Progresso da vida · Nova aba" },
+  "extDesc":           { "message": "Nova aba + popup com a barra de progresso da sua vida." },
+  "cmdOpenPopup":      { "message": "Abrir o popup de progresso da vida" },
+  "pageTitle":         { "message": "Progresso da vida" },
+  "label":             { "message": "Progresso da vida" },
+  "searchPlaceholder": { "message": "Pesquisar…" },
+  "progressAria": {
+    "message": "Progresso da vida $pct$%",
+    "placeholders": { "pct": { "content": "$1" } }
+  },
+  "dayStat": {
+    "message": "Hoje é o dia $lived$ da sua vida ($age$ anos)",
+    "placeholders": { "lived": { "content": "$1" }, "age": { "content": "$2" } }
+  },
+  "remainStat": {
+    "message": "Faltam $left$ dias · $years$ anos · até $end$",
+    "placeholders": { "left": { "content": "$1" }, "years": { "content": "$2" }, "end": { "content": "$3" } }
+  },
+  "dayStatShort": {
+    "message": "Dia $lived$ ($age$ anos)",
+    "placeholders": { "lived": { "content": "$1" }, "age": { "content": "$2" } }
+  },
+  "remainStatShort": {
+    "message": "Faltam $left$ · $years$ a · $end$",
+    "placeholders": { "left": { "content": "$1" }, "years": { "content": "$2" }, "end": { "content": "$3" } }
+  },
+  "settings":     { "message": "Configurações" },
+  "birthday":     { "message": "Data de nascimento" },
+  "totalDays":    { "message": "Expectativa de vida (dias)" },
+  "invalidInput": { "message": "Informe uma data válida e um número de dias maior que 0" },
+  "reset":        { "message": "Redefinir" },
+  "save":         { "message": "Salvar" }
+}

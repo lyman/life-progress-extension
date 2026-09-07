@@ -1,0 +1,34 @@
+{
+  "extName":           { "message": "تقدّم الحياة · علامة تبويب جديدة" },
+  "extDesc":           { "message": "صفحة علامة تبويب جديدة + نافذة منبثقة تعرض شريط تقدّم حياتك." },
+  "cmdOpenPopup":      { "message": "فتح نافذة تقدّم الحياة" },
+  "pageTitle":         { "message": "تقدّم الحياة" },
+  "label":             { "message": "تقدّم الحياة" },
+  "searchPlaceholder": { "message": "بحث…" },
+  "progressAria": {
+    "message": "تقدّم الحياة $pct$%",
+    "placeholders": { "pct": { "content": "$1" } }
+  },
+  "dayStat": {
+    "message": "اليوم هو اليوم $lived$ من حياتك (العمر $age$)",
+    "placeholders": { "lived": { "content": "$1" }, "age": { "content": "$2" } }
+  },
+  "remainStat": {
+    "message": "تبقّى $left$ يومًا · $years$ سنة · حتى $end$",
+    "placeholders": { "left": { "content": "$1" }, "years": { "content": "$2" }, "end": { "content": "$3" } }
+  },
+  "dayStatShort": {
+    "message": "اليوم $lived$ (العمر $age$)",
+    "placeholders": { "lived": { "content": "$1" }, "age": { "content": "$2" } }
+  },
+  "remainStatShort": {
+    "message": "تبقّى $left$ · $end$",
+    "placeholders": { "left": { "content": "$1" }, "end": { "content": "$2" } }
+  },
+  "settings":     { "message": "الإعدادات" },
+  "birthday":     { "message": "تاريخ الميلاد" },
+  "totalDays":    { "message": "متوسط العمر المتوقع (بالأيام)" },
+  "invalidInput": { "message": "أدخل تاريخًا صحيحًا وعدد أيام أكبر من 0" },
+  "reset":        { "message": "استعادة الافتراضي" },
+  "save":         { "message": "حفظ" }
+}

@@ -1,0 +1,34 @@
+{
+  "extName":           { "message": "인생 진행률 · 새 탭" },
+  "extDesc":           { "message": "새 탭과 툴바 팝업에서 인생 진행률 바를 언제든 확인하세요." },
+  "cmdOpenPopup":      { "message": "인생 진행률 팝업 열기" },
+  "pageTitle":         { "message": "인생 진행률" },
+  "label":             { "message": "인생 진행률" },
+  "searchPlaceholder": { "message": "검색…" },
+  "progressAria": {
+    "message": "인생 진행률 $pct$%",
+    "placeholders": { "pct": { "content": "$1" } }
+  },
+  "dayStat": {
+    "message": "오늘은 인생의 $lived$일째($age$세)",
+    "placeholders": { "lived": { "content": "$1" }, "age": { "content": "$2" } }
+  },
+  "remainStat": {
+    "message": "$left$일 남음 · $years$년 · $end$까지",
+    "placeholders": { "left": { "content": "$1" }, "years": { "content": "$2" }, "end": { "content": "$3" } }
+  },
+  "dayStatShort": {
+    "message": "$lived$일째($age$세)",
+    "placeholders": { "lived": { "content": "$1" }, "age": { "content": "$2" } }
+  },
+  "remainStatShort": {
+    "message": "$left$일 남음 · $years$년 · $end$",
+    "placeholders": { "left": { "content": "$1" }, "years": { "content": "$2" }, "end": { "content": "$3" } }
+  },
+  "settings":     { "message": "설정" },
+  "birthday":     { "message": "생년월일" },
+  "totalDays":    { "message": "예상 수명(일)" },
+  "invalidInput": { "message": "올바른 날짜와 0보다 큰 일수를 입력하세요" },
+  "reset":        { "message": "기본값으로 되돌리기" },
+  "save":         { "message": "저장" }
+}

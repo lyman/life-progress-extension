@@ -1,0 +1,34 @@
+{
+  "extName":           { "message": "ความคืบหน้าชีวิต · แท็บใหม่" },
+  "extDesc":           { "message": "หน้าแท็บใหม่ + ป๊อปอัปแสดงแถบความคืบหน้าชีวิตของคุณ" },
+  "cmdOpenPopup":      { "message": "เปิดป๊อปอัปความคืบหน้าชีวิต" },
+  "pageTitle":         { "message": "ความคืบหน้าชีวิต" },
+  "label":             { "message": "ความคืบหน้าชีวิต" },
+  "searchPlaceholder": { "message": "ค้นหา…" },
+  "progressAria": {
+    "message": "ความคืบหน้าชีวิต $pct$%",
+    "placeholders": { "pct": { "content": "$1" } }
+  },
+  "dayStat": {
+    "message": "วันนี้คือวันที่ $lived$ ของชีวิตคุณ (อายุ $age$ ปี)",
+    "placeholders": { "lived": { "content": "$1" }, "age": { "content": "$2" } }
+  },
+  "remainStat": {
+    "message": "เหลืออีก $left$ วัน · $years$ ปี · ถึง $end$",
+    "placeholders": { "left": { "content": "$1" }, "years": { "content": "$2" }, "end": { "content": "$3" } }
+  },
+  "dayStatShort": {
+    "message": "วันที่ $lived$ (อายุ $age$ ปี)",
+    "placeholders": { "lived": { "content": "$1" }, "age": { "content": "$2" } }
+  },
+  "remainStatShort": {
+    "message": "เหลือ $left$ วัน · $end$",
+    "placeholders": { "left": { "content": "$1" }, "end": { "content": "$2" } }
+  },
+  "settings":     { "message": "การตั้งค่า" },
+  "birthday":     { "message": "วันเดือนปีเกิด" },
+  "totalDays":    { "message": "อายุขัยที่คาดหมาย (วัน)" },
+  "invalidInput": { "message": "กรุณากรอกวันที่ที่ถูกต้องและจำนวนวันมากกว่า 0" },
+  "reset":        { "message": "คืนค่าเริ่มต้น" },
+  "save":         { "message": "บันทึก" }
+}

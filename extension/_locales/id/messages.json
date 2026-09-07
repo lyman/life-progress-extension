@@ -1,0 +1,34 @@
+{
+  "extName":           { "message": "Kemajuan hidup · Tab baru" },
+  "extDesc":           { "message": "Halaman tab baru + popup dengan bilah kemajuan hidup Anda." },
+  "cmdOpenPopup":      { "message": "Buka popup kemajuan hidup" },
+  "pageTitle":         { "message": "Kemajuan hidup" },
+  "label":             { "message": "Kemajuan hidup" },
+  "searchPlaceholder": { "message": "Cari…" },
+  "progressAria": {
+    "message": "Kemajuan hidup $pct$%",
+    "placeholders": { "pct": { "content": "$1" } }
+  },
+  "dayStat": {
+    "message": "Hari ini adalah hari ke-$lived$ hidup Anda (usia $age$ tahun)",
+    "placeholders": { "lived": { "content": "$1" }, "age": { "content": "$2" } }
+  },
+  "remainStat": {
+    "message": "Tersisa $left$ hari · $years$ tahun · hingga $end$",
+    "placeholders": { "left": { "content": "$1" }, "years": { "content": "$2" }, "end": { "content": "$3" } }
+  },
+  "dayStatShort": {
+    "message": "Hari ke-$lived$ (usia $age$ tahun)",
+    "placeholders": { "lived": { "content": "$1" }, "age": { "content": "$2" } }
+  },
+  "remainStatShort": {
+    "message": "Tersisa $left$ hari · $end$",
+    "placeholders": { "left": { "content": "$1" }, "end": { "content": "$2" } }
+  },
+  "settings":     { "message": "Setelan" },
+  "birthday":     { "message": "Tanggal lahir" },
+  "totalDays":    { "message": "Harapan hidup (hari)" },
+  "invalidInput": { "message": "Masukkan tanggal yang valid dan jumlah hari lebih dari 0" },
+  "reset":        { "message": "Kembalikan ke default" },
+  "save":         { "message": "Simpan" }
+}

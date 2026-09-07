@@ -1,0 +1,34 @@
+{
+  "extName":           { "message": "Levensvoortgang · Nieuw tabblad" },
+  "extDesc":           { "message": "Nieuw tabblad + pop-up met je levensvoortgangsbalk." },
+  "cmdOpenPopup":      { "message": "Levensvoortgang-pop-up openen" },
+  "pageTitle":         { "message": "Levensvoortgang" },
+  "label":             { "message": "Levensvoortgang" },
+  "searchPlaceholder": { "message": "Zoeken…" },
+  "progressAria": {
+    "message": "Levensvoortgang $pct$%",
+    "placeholders": { "pct": { "content": "$1" } }
+  },
+  "dayStat": {
+    "message": "Vandaag is dag $lived$ van je leven ($age$ jaar)",
+    "placeholders": { "lived": { "content": "$1" }, "age": { "content": "$2" } }
+  },
+  "remainStat": {
+    "message": "Nog $left$ dagen · $years$ jaar · tot $end$",
+    "placeholders": { "left": { "content": "$1" }, "years": { "content": "$2" }, "end": { "content": "$3" } }
+  },
+  "dayStatShort": {
+    "message": "Dag $lived$ ($age$ jaar)",
+    "placeholders": { "lived": { "content": "$1" }, "age": { "content": "$2" } }
+  },
+  "remainStatShort": {
+    "message": "Nog $left$ dgn · $years$ j · $end$",
+    "placeholders": { "left": { "content": "$1" }, "years": { "content": "$2" }, "end": { "content": "$3" } }
+  },
+  "settings":     { "message": "Instellingen" },
+  "birthday":     { "message": "Geboortedatum" },
+  "totalDays":    { "message": "Verwachte levensduur (dagen)" },
+  "invalidInput": { "message": "Vul een geldige datum en een aantal dagen groter dan 0 in" },
+  "reset":        { "message": "Standaard herstellen" },
+  "save":         { "message": "Opslaan" }
+}

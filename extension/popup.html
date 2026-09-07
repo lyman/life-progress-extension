@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title data-i18n="pageTitle">人生进度</title>
+<style>
+  /* 与 newtab.html 同一套调色板角色（紧凑版） */
+  :root {
+    color-scheme: light;
+    --surface:        #fcfcfb;
+    --text-primary:   #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted:     #898781;
+    --accent:         #2a78d6;
+    --track:          #cde2fb;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+      --surface:        #1a1a19;
+      --text-primary:   #ffffff;
+      --text-secondary: #c3c2b7;
+      --text-muted:     #898781;
+      --accent:         #3987e5;
+      --track:          #184f95;
+    }
+  }
+  body {
+    width: 280px; margin: 0; padding: 20px 22px 18px;
+    background: var(--surface); color: var(--text-primary); text-align: center;
+    font-family: system-ui, -apple-system, "Segoe UI", "PingFang SC", sans-serif;
+  }
+  .label { font-size: 12px; color: var(--text-secondary); }
+  .hero  { font-size: 48px; font-weight: 600; line-height: 1.15; margin: 2px 0 10px; }
+  .hero small { font-size: 0.42em; font-weight: 500; color: var(--text-secondary); margin-left: 0.08em; }
+  .meter { height: 10px; border-radius: 999px; background: var(--track); overflow: hidden; margin-bottom: 12px; }
+  .meter .fill { height: 100%; border-radius: 999px; background: var(--accent); }
+  .stat { font-size: 13px; color: var(--text-secondary); }
+  .stat.muted { margin-top: 3px; font-size: 12px; color: var(--text-muted); }
+</style>
+</head>
+<body>
+  <div class="label" data-i18n="label">人生进度</div>
+  <div class="hero"><span id="pct">--</span><small>%</small></div>
+  <div class="meter" id="meter" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+    <div class="fill" id="fill" style="width:0"></div>
+  </div>
+  <div class="stat" id="day">…</div>
+  <div class="stat muted" id="remain">…</div>
+  <script src="life-core.js"></script>
+  <script src="i18n.js"></script>
+  <script src="popup.js"></script>
+  <script src="settings.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+{
+  "extName":           { "message": "जीवन प्रगति · नया टैब" },
+  "extDesc":           { "message": "नया टैब पेज + पॉपअप में अपने जीवन की प्रगति पट्टी देखें।" },
+  "cmdOpenPopup":      { "message": "जीवन प्रगति पॉपअप खोलें" },
+  "pageTitle":         { "message": "जीवन प्रगति" },
+  "label":             { "message": "जीवन प्रगति" },
+  "searchPlaceholder": { "message": "खोजें…" },
+  "progressAria": {
+    "message": "जीवन प्रगति $pct$%",
+    "placeholders": { "pct": { "content": "$1" } }
+  },
+  "dayStat": {
+    "message": "आज आपके जीवन का $lived$वाँ दिन है (उम्र $age$ वर्ष)",
+    "placeholders": { "lived": { "content": "$1" }, "age": { "content": "$2" } }
+  },
+  "remainStat": {
+    "message": "$left$ दिन बाकी · $years$ वर्ष · $end$ तक",
+    "placeholders": { "left": { "content": "$1" }, "years": { "content": "$2" }, "end": { "content": "$3" } }
+  },
+  "dayStatShort": {
+    "message": "दिन $lived$ (उम्र $age$ वर्ष)",
+    "placeholders": { "lived": { "content": "$1" }, "age": { "content": "$2" } }
+  },
+  "remainStatShort": {
+    "message": "$left$ दिन बाकी · $end$",
+    "placeholders": { "left": { "content": "$1" }, "end": { "content": "$2" } }
+  },
+  "settings":     { "message": "सेटिंग्स" },
+  "birthday":     { "message": "जन्म तिथि" },
+  "totalDays":    { "message": "अपेक्षित आयु (दिनों में)" },
+  "invalidInput": { "message": "कृपया मान्य तिथि और 0 से बड़ी दिनों की संख्या दर्ज करें" },
+  "reset":        { "message": "डिफ़ॉल्ट पर लौटें" },
+  "save":         { "message": "सहेजें" }
+}

@@ -1,0 +1,34 @@
+{
+  "extName":           { "message": "Tiến độ cuộc đời · Thẻ mới" },
+  "extDesc":           { "message": "Trang thẻ mới + cửa sổ pop-up hiển thị thanh tiến độ cuộc đời của bạn." },
+  "cmdOpenPopup":      { "message": "Mở cửa sổ tiến độ cuộc đời" },
+  "pageTitle":         { "message": "Tiến độ cuộc đời" },
+  "label":             { "message": "Tiến độ cuộc đời" },
+  "searchPlaceholder": { "message": "Tìm kiếm…" },
+  "progressAria": {
+    "message": "Tiến độ cuộc đời $pct$%",
+    "placeholders": { "pct": { "content": "$1" } }
+  },
+  "dayStat": {
+    "message": "Hôm nay là ngày thứ $lived$ của cuộc đời bạn ($age$ tuổi)",
+    "placeholders": { "lived": { "content": "$1" }, "age": { "content": "$2" } }
+  },
+  "remainStat": {
+    "message": "Còn $left$ ngày · $years$ năm · đến $end$",
+    "placeholders": { "left": { "content": "$1" }, "years": { "content": "$2" }, "end": { "content": "$3" } }
+  },
+  "dayStatShort": {
+    "message": "Ngày thứ $lived$ ($age$ tuổi)",
+    "placeholders": { "lived": { "content": "$1" }, "age": { "content": "$2" } }
+  },
+  "remainStatShort": {
+    "message": "Còn $left$ ngày · $end$",
+    "placeholders": { "left": { "content": "$1" }, "end": { "content": "$2" } }
+  },
+  "settings":     { "message": "Cài đặt" },
+  "birthday":     { "message": "Ngày sinh" },
+  "totalDays":    { "message": "Tuổi thọ dự kiến (ngày)" },
+  "invalidInput": { "message": "Nhập ngày hợp lệ và số ngày lớn hơn 0" },
+  "reset":        { "message": "Khôi phục mặc định" },
+  "save":         { "message": "Lưu" }
+}

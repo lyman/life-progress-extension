@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title data-i18n="pageTitle">人生进度</title>
+<style>
+  /* 调色板角色：明/暗两套（蓝 ramp 单色系，进度条填充深一档、轨道浅/深一档） */
+  :root {
+    color-scheme: light;
+    --surface:        #fcfcfb;
+    --text-primary:   #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted:     #898781;
+    --accent:         #2a78d6;
+    --track:          #cde2fb;
+    --hairline:       rgba(11, 11, 11, 0.10);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+      --surface:        #1a1a19;
+      --text-primary:   #ffffff;
+      --text-secondary: #c3c2b7;
+      --text-muted:     #898781;
+      --accent:         #3987e5;
+      --track:          #184f95;
+      --hairline:       rgba(255, 255, 255, 0.10);
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background: var(--surface);
+    color: var(--text-primary);
+    font-family: system-ui, -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  }
+  main { width: min(560px, 84vw); text-align: center; }
+  .label { font-size: 14px; color: var(--text-secondary); }
+  .hero  { font-size: clamp(64px, 12vw, 104px); font-weight: 600; line-height: 1.1; margin-top: 4px; }
+  .hero small { font-size: 0.4em; font-weight: 500; color: var(--text-secondary); margin-left: 0.1em; }
+  .meter { height: 12px; border-radius: 999px; background: var(--track); margin: 28px 0 18px; overflow: hidden; }
+  .meter .fill { height: 100%; border-radius: 999px; background: var(--accent); transition: width .6s ease; }
+  .stat  { font-size: 15px; color: var(--text-secondary); }
+  .stat.muted { margin-top: 4px; font-size: 13px; color: var(--text-muted); }
+  /* 搜索默认走浏览器默认搜索引擎（newtab.js 里 chrome.search）；此表单仅作 API 不可用时的回退。
+     换回退引擎：改 action 和 input 的 name —— Bing: /search + q · Baidu: /s + wd · Google: /search + q */
+  form.search { margin-top: 56px; }
+  form.search input {
+    width: 100%; padding: 12px 18px; font-size: 15px;
+    color: var(--text-primary); background: transparent;
+    border: 1px solid var(--hairline); border-radius: 10px; outline: none;
+  }
+  form.search input:focus { border-color: var(--accent); }
+  form.search input::placeholder { color: var(--text-muted); }
+</style>
+</head>
+<body>
+<main>
+  <div class="label" data-i18n="label">人生进度</div>
+  <div class="hero"><span id="pct">--</span><small>%</small></div>
+  <div class="meter" id="meter" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+    <div class="fill" id="fill" style="width:0"></div>
+  </div>
+  <div class="stat" id="day">…</div>
+  <div class="stat muted" id="remain">…</div>
+  <form class="search" action="https://www.bing.com/search" method="get">
+    <input type="text" name="q" placeholder="搜索…" data-i18n-placeholder="searchPlaceholder" autofocus autocomplete="off">
+  </form>
+</main>
+<script src="life-core.js"></script>
+<script src="i18n.js"></script>
+<script src="newtab.js"></script>
+<script src="settings.js"></script>
+</body>
+</html>

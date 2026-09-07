@@ -1,0 +1,34 @@
+{
+  "extName":           { "message": "Postęp życia · Nowa karta" },
+  "extDesc":           { "message": "Nowa karta + okno podręczne z paskiem postępu Twojego życia." },
+  "cmdOpenPopup":      { "message": "Otwórz okno postępu życia" },
+  "pageTitle":         { "message": "Postęp życia" },
+  "label":             { "message": "Postęp życia" },
+  "searchPlaceholder": { "message": "Szukaj…" },
+  "progressAria": {
+    "message": "Postęp życia $pct$%",
+    "placeholders": { "pct": { "content": "$1" } }
+  },
+  "dayStat": {
+    "message": "Dziś jest $lived$. dzień Twojego życia (wiek: $age$)",
+    "placeholders": { "lived": { "content": "$1" }, "age": { "content": "$2" } }
+  },
+  "remainStat": {
+    "message": "Pozostało dni: $left$ · lat: $years$ · do $end$",
+    "placeholders": { "left": { "content": "$1" }, "years": { "content": "$2" }, "end": { "content": "$3" } }
+  },
+  "dayStatShort": {
+    "message": "Dzień $lived$ (wiek: $age$)",
+    "placeholders": { "lived": { "content": "$1" }, "age": { "content": "$2" } }
+  },
+  "remainStatShort": {
+    "message": "Pozostało $left$ dn. · $end$",
+    "placeholders": { "left": { "content": "$1" }, "end": { "content": "$2" } }
+  },
+  "settings":     { "message": "Ustawienia" },
+  "birthday":     { "message": "Data urodzenia" },
+  "totalDays":    { "message": "Przewidywana długość życia (dni)" },
+  "invalidInput": { "message": "Podaj prawidłową datę i liczbę dni większą od 0" },
+  "reset":        { "message": "Przywróć domyślne" },
+  "save":         { "message": "Zapisz" }
+}

@@ -1,0 +1,34 @@
+{
+  "extName":           { "message": "人生の進捗 · 新しいタブ" },
+  "extDesc":           { "message": "新しいタブとツールバーポップアップで、人生の進捗バーをいつでも確認。" },
+  "cmdOpenPopup":      { "message": "人生の進捗ポップアップを開く" },
+  "pageTitle":         { "message": "人生の進捗" },
+  "label":             { "message": "人生の進捗" },
+  "searchPlaceholder": { "message": "検索…" },
+  "progressAria": {
+    "message": "人生の進捗 $pct$%",
+    "placeholders": { "pct": { "content": "$1" } }
+  },
+  "dayStat": {
+    "message": "今日はあなたの人生の $lived$ 日目（$age$ 歳）",
+    "placeholders": { "lived": { "content": "$1" }, "age": { "content": "$2" } }
+  },
+  "remainStat": {
+    "message": "残り $left$ 日 · $years$ 年 · $end$ まで",
+    "placeholders": { "left": { "content": "$1" }, "years": { "content": "$2" }, "end": { "content": "$3" } }
+  },
+  "dayStatShort": {
+    "message": "$lived$ 日目（$age$ 歳）",
+    "placeholders": { "lived": { "content": "$1" }, "age": { "content": "$2" } }
+  },
+  "remainStatShort": {
+    "message": "残り $left$ 日 · $years$ 年 · $end$",
+    "placeholders": { "left": { "content": "$1" }, "years": { "content": "$2" }, "end": { "content": "$3" } }
+  },
+  "settings":     { "message": "設定" },
+  "birthday":     { "message": "生年月日" },
+  "totalDays":    { "message": "想定寿命（日数）" },
+  "invalidInput": { "message": "有効な日付と 0 より大きい日数を入力してください" },
+  "reset":        { "message": "デフォルトに戻す" },
+  "save":         { "message": "保存" }
+}

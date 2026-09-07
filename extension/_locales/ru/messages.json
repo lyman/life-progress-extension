@@ -1,0 +1,34 @@
+{
+  "extName":           { "message": "Прогресс жизни · Новая вкладка" },
+  "extDesc":           { "message": "Новая вкладка + всплывающее окно с индикатором прогресса вашей жизни." },
+  "cmdOpenPopup":      { "message": "Открыть окно прогресса жизни" },
+  "pageTitle":         { "message": "Прогресс жизни" },
+  "label":             { "message": "Прогресс жизни" },
+  "searchPlaceholder": { "message": "Поиск…" },
+  "progressAria": {
+    "message": "Прогресс жизни $pct$%",
+    "placeholders": { "pct": { "content": "$1" } }
+  },
+  "dayStat": {
+    "message": "Сегодня — $lived$-й день вашей жизни (возраст $age$)",
+    "placeholders": { "lived": { "content": "$1" }, "age": { "content": "$2" } }
+  },
+  "remainStat": {
+    "message": "Осталось дней: $left$ · лет: $years$ · до $end$",
+    "placeholders": { "left": { "content": "$1" }, "years": { "content": "$2" }, "end": { "content": "$3" } }
+  },
+  "dayStatShort": {
+    "message": "День $lived$ (возраст $age$)",
+    "placeholders": { "lived": { "content": "$1" }, "age": { "content": "$2" } }
+  },
+  "remainStatShort": {
+    "message": "Осталось $left$ дн. · $end$",
+    "placeholders": { "left": { "content": "$1" }, "end": { "content": "$2" } }
+  },
+  "settings":     { "message": "Настройки" },
+  "birthday":     { "message": "Дата рождения" },
+  "totalDays":    { "message": "Ожидаемая продолжительность жизни (дней)" },
+  "invalidInput": { "message": "Введите корректную дату и число дней больше 0" },
+  "reset":        { "message": "Сбросить" },
+  "save":         { "message": "Сохранить" }
+}

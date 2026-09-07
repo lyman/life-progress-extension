@@ -1,0 +1,34 @@
+{
+  "extName":           { "message": "Life Progress · New Tab" },
+  "extDesc":           { "message": "New tab page + toolbar popup with your life progress bar." },
+  "cmdOpenPopup":      { "message": "Open the Life Progress popup" },
+  "pageTitle":         { "message": "Life Progress" },
+  "label":             { "message": "Life Progress" },
+  "searchPlaceholder": { "message": "Search…" },
+  "progressAria": {
+    "message": "Life progress $pct$%",
+    "placeholders": { "pct": { "content": "$1" } }
+  },
+  "dayStat": {
+    "message": "Day $lived$ of your life (age $age$)",
+    "placeholders": { "lived": { "content": "$1" }, "age": { "content": "$2" } }
+  },
+  "remainStat": {
+    "message": "$left$ days left · $years$ years · ends $end$",
+    "placeholders": { "left": { "content": "$1" }, "years": { "content": "$2" }, "end": { "content": "$3" } }
+  },
+  "dayStatShort": {
+    "message": "Day $lived$ (age $age$)",
+    "placeholders": { "lived": { "content": "$1" }, "age": { "content": "$2" } }
+  },
+  "remainStatShort": {
+    "message": "$left$ left · $years$ yrs · $end$",
+    "placeholders": { "left": { "content": "$1" }, "years": { "content": "$2" }, "end": { "content": "$3" } }
+  },
+  "settings":     { "message": "Settings" },
+  "birthday":     { "message": "Date of birth" },
+  "totalDays":    { "message": "Life expectancy (days)" },
+  "invalidInput": { "message": "Enter a valid date and a number of days > 0" },
+  "reset":        { "message": "Reset" },
+  "save":         { "message": "Save" }
+}

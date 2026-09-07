@@ -1,0 +1,34 @@
+{
+  "extName":           { "message": "Lebensfortschritt · Neuer Tab" },
+  "extDesc":           { "message": "Neuer Tab + Popup mit deinem Lebensfortschrittsbalken." },
+  "cmdOpenPopup":      { "message": "Lebensfortschritt-Popup öffnen" },
+  "pageTitle":         { "message": "Lebensfortschritt" },
+  "label":             { "message": "Lebensfortschritt" },
+  "searchPlaceholder": { "message": "Suchen…" },
+  "progressAria": {
+    "message": "Lebensfortschritt $pct$ %",
+    "placeholders": { "pct": { "content": "$1" } }
+  },
+  "dayStat": {
+    "message": "Heute ist Tag $lived$ deines Lebens ($age$ Jahre)",
+    "placeholders": { "lived": { "content": "$1" }, "age": { "content": "$2" } }
+  },
+  "remainStat": {
+    "message": "Noch $left$ Tage · $years$ Jahre · bis $end$",
+    "placeholders": { "left": { "content": "$1" }, "years": { "content": "$2" }, "end": { "content": "$3" } }
+  },
+  "dayStatShort": {
+    "message": "Tag $lived$ ($age$ Jahre)",
+    "placeholders": { "lived": { "content": "$1" }, "age": { "content": "$2" } }
+  },
+  "remainStatShort": {
+    "message": "Noch $left$ Tg · $years$ J · $end$",
+    "placeholders": { "left": { "content": "$1" }, "years": { "content": "$2" }, "end": { "content": "$3" } }
+  },
+  "settings":     { "message": "Einstellungen" },
+  "birthday":     { "message": "Geburtsdatum" },
+  "totalDays":    { "message": "Lebenserwartung (Tage)" },
+  "invalidInput": { "message": "Bitte ein gültiges Datum und eine Tagesanzahl größer 0 eingeben" },
+  "reset":        { "message": "Zurücksetzen" },
+  "save":         { "message": "Speichern" }
+}

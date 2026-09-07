@@ -1,0 +1,34 @@
+{
+  "extName":           { "message": "Yaşam ilerlemesi · Yeni sekme" },
+  "extDesc":           { "message": "Yeni sekme sayfası + açılır pencere ile yaşam ilerleme çubuğunu her zaman görün." },
+  "cmdOpenPopup":      { "message": "Yaşam ilerlemesi penceresini aç" },
+  "pageTitle":         { "message": "Yaşam ilerlemesi" },
+  "label":             { "message": "Yaşam ilerlemesi" },
+  "searchPlaceholder": { "message": "Ara…" },
+  "progressAria": {
+    "message": "Yaşam ilerlemesi %$pct$",
+    "placeholders": { "pct": { "content": "$1" } }
+  },
+  "dayStat": {
+    "message": "Bugün hayatınızın $lived$. günü ($age$ yaş)",
+    "placeholders": { "lived": { "content": "$1" }, "age": { "content": "$2" } }
+  },
+  "remainStat": {
+    "message": "$left$ gün kaldı · $years$ yıl · $end$ tarihine kadar",
+    "placeholders": { "left": { "content": "$1" }, "years": { "content": "$2" }, "end": { "content": "$3" } }
+  },
+  "dayStatShort": {
+    "message": "$lived$. gün ($age$ yaş)",
+    "placeholders": { "lived": { "content": "$1" }, "age": { "content": "$2" } }
+  },
+  "remainStatShort": {
+    "message": "$left$ gün kaldı · $end$",
+    "placeholders": { "left": { "content": "$1" }, "end": { "content": "$2" } }
+  },
+  "settings":     { "message": "Ayarlar" },
+  "birthday":     { "message": "Doğum tarihi" },
+  "totalDays":    { "message": "Beklenen ömür (gün)" },
+  "invalidInput": { "message": "Geçerli bir tarih ve 0'dan büyük bir gün sayısı girin" },
+  "reset":        { "message": "Varsayılana dön" },
+  "save":         { "message": "Kaydet" }
+}
