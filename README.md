@@ -6,7 +6,7 @@ Default config: birthday **1980-02-20** · life expectancy **30,000 days** (≈ 
 
 **English** · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Italiano](README.it.md) · [Português (BR)](README.pt-BR.md) · [Русский](README.ru.md) · [Nederlands](README.nl.md) · [Polski](README.pl.md) · [Türkçe](README.tr.md) · [العربية](README.ar.md) · [हिन्दी](README.hi.md) · [ไทย](README.th.md) · [Tiếng Việt](README.vi.md) · [Bahasa Indonesia](README.id.md)
 
-## Browser extension (Edge / Chrome and other Chromium browsers · v1.3.2)
+## Browser extension (Edge / Chrome and other Chromium browsers · v1.3.3)
 
 The code lives in `extension/`, with three entry points:
 

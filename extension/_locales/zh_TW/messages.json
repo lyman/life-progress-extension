@@ -3,7 +3,10 @@
   "extDesc":           { "message": "新分頁 + 工具列彈出視窗，隨時查看人生進度條。" },
   "cmdOpenPopup":      { "message": "開啟人生進度彈出視窗" },
   "pageTitle":         { "message": "人生進度" },
-  "label":             { "message": "人生進度" },
+  "label": {
+    "message": "人生不過短短 $days$ 天",
+    "placeholders": { "days": { "content": "$1" } }
+  },
   "searchPlaceholder": { "message": "搜尋…" },
   "progressAria": {
     "message": "人生進度 $pct$%",

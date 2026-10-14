@@ -3,7 +3,10 @@
   "extDesc":           { "message": "Halaman tab baru + popup dengan bilah kemajuan hidup Anda." },
   "cmdOpenPopup":      { "message": "Buka popup kemajuan hidup" },
   "pageTitle":         { "message": "Kemajuan hidup" },
-  "label":             { "message": "Kemajuan hidup" },
+  "label": {
+    "message": "Hidup hanya $days$ hari",
+    "placeholders": { "days": { "content": "$1" } }
+  },
   "searchPlaceholder": { "message": "Cari…" },
   "progressAria": {
     "message": "Kemajuan hidup $pct$%",

@@ -3,7 +3,10 @@
   "extDesc":           { "message": "新しいタブとツールバーポップアップで、人生の進捗バーをいつでも確認。" },
   "cmdOpenPopup":      { "message": "人生の進捗ポップアップを開く" },
   "pageTitle":         { "message": "人生の進捗" },
-  "label":             { "message": "人生の進捗" },
+  "label": {
+    "message": "人生はたった $days$ 日",
+    "placeholders": { "days": { "content": "$1" } }
+  },
   "searchPlaceholder": { "message": "検索…" },
   "progressAria": {
     "message": "人生の進捗 $pct$%",

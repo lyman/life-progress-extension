@@ -3,7 +3,10 @@
   "extDesc":           { "message": "Yeni sekme sayfası + açılır pencere ile yaşam ilerleme çubuğunu her zaman görün." },
   "cmdOpenPopup":      { "message": "Yaşam ilerlemesi penceresini aç" },
   "pageTitle":         { "message": "Yaşam ilerlemesi" },
-  "label":             { "message": "Yaşam ilerlemesi" },
+  "label": {
+    "message": "Hayat yalnızca $days$ gün",
+    "placeholders": { "days": { "content": "$1" } }
+  },
   "searchPlaceholder": { "message": "Ara…" },
   "progressAria": {
     "message": "Yaşam ilerlemesi %$pct$",

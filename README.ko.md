@@ -6,7 +6,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · **한국어** · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Italiano](README.it.md) · [Português (BR)](README.pt-BR.md) · [Русский](README.ru.md) · [Nederlands](README.nl.md) · [Polski](README.pl.md) · [Türkçe](README.tr.md) · [العربية](README.ar.md) · [हिन्दी](README.hi.md) · [ไทย](README.th.md) · [Tiếng Việt](README.vi.md) · [Bahasa Indonesia](README.id.md)
 
-## 브라우저 확장 프로그램(Edge / Chrome 등 Chromium 계열 · v1.3.2)
+## 브라우저 확장 프로그램(Edge / Chrome 등 Chromium 계열 · v1.3.3)
 
 코드는 `extension/`에 있으며 세 가지 진입점이 있습니다:
 

@@ -3,7 +3,10 @@
   "extDesc":           { "message": "Nowa karta + okno podręczne z paskiem postępu Twojego życia." },
   "cmdOpenPopup":      { "message": "Otwórz okno postępu życia" },
   "pageTitle":         { "message": "Postęp życia" },
-  "label":             { "message": "Postęp życia" },
+  "label": {
+    "message": "Życie to tylko $days$ dni",
+    "placeholders": { "days": { "content": "$1" } }
+  },
   "searchPlaceholder": { "message": "Szukaj…" },
   "progressAria": {
     "message": "Postęp życia $pct$%",

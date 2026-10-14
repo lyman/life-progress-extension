@@ -3,7 +3,10 @@
   "extDesc":           { "message": "หน้าแท็บใหม่ + ป๊อปอัปแสดงแถบความคืบหน้าชีวิตของคุณ" },
   "cmdOpenPopup":      { "message": "เปิดป๊อปอัปความคืบหน้าชีวิต" },
   "pageTitle":         { "message": "ความคืบหน้าชีวิต" },
-  "label":             { "message": "ความคืบหน้าชีวิต" },
+  "label": {
+    "message": "ชีวิตมีเพียง $days$ วัน",
+    "placeholders": { "days": { "content": "$1" } }
+  },
   "searchPlaceholder": { "message": "ค้นหา…" },
   "progressAria": {
     "message": "ความคืบหน้าชีวิต $pct$%",

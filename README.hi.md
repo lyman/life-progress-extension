@@ -6,7 +6,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Italiano](README.it.md) · [Português (BR)](README.pt-BR.md) · [Русский](README.ru.md) · [Nederlands](README.nl.md) · [Polski](README.pl.md) · [Türkçe](README.tr.md) · [العربية](README.ar.md) · **हिन्दी** · [ไทย](README.th.md) · [Tiếng Việt](README.vi.md) · [Bahasa Indonesia](README.id.md)
 
-## ब्राउज़र एक्सटेंशन (Edge / Chrome और अन्य Chromium ब्राउज़र · v1.3.2)
+## ब्राउज़र एक्सटेंशन (Edge / Chrome और अन्य Chromium ब्राउज़र · v1.3.3)
 
 कोड `extension/` में है, तीन प्रवेश बिंदुओं के साथ:
 

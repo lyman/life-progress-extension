@@ -3,7 +3,10 @@
   "extDesc":           { "message": "नया टैब पेज + पॉपअप में अपने जीवन की प्रगति पट्टी देखें।" },
   "cmdOpenPopup":      { "message": "जीवन प्रगति पॉपअप खोलें" },
   "pageTitle":         { "message": "जीवन प्रगति" },
-  "label":             { "message": "जीवन प्रगति" },
+  "label": {
+    "message": "जीवन बस $days$ दिनों का है",
+    "placeholders": { "days": { "content": "$1" } }
+  },
   "searchPlaceholder": { "message": "खोजें…" },
   "progressAria": {
     "message": "जीवन प्रगति $pct$%",

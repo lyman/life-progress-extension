@@ -3,7 +3,10 @@
   "extDesc":           { "message": "새 탭과 툴바 팝업에서 인생 진행률 바를 언제든 확인하세요." },
   "cmdOpenPopup":      { "message": "인생 진행률 팝업 열기" },
   "pageTitle":         { "message": "인생 진행률" },
-  "label":             { "message": "인생 진행률" },
+  "label": {
+    "message": "인생은 겨우 $days$ 일",
+    "placeholders": { "days": { "content": "$1" } }
+  },
   "searchPlaceholder": { "message": "검색…" },
   "progressAria": {
     "message": "인생 진행률 $pct$%",

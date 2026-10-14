@@ -3,7 +3,10 @@
   "extDesc":           { "message": "Neuer Tab + Popup mit deinem Lebensfortschrittsbalken." },
   "cmdOpenPopup":      { "message": "Lebensfortschritt-Popup öffnen" },
   "pageTitle":         { "message": "Lebensfortschritt" },
-  "label":             { "message": "Lebensfortschritt" },
+  "label": {
+    "message": "Das Leben hat nur $days$ Tage",
+    "placeholders": { "days": { "content": "$1" } }
+  },
   "searchPlaceholder": { "message": "Suchen…" },
   "progressAria": {
     "message": "Lebensfortschritt $pct$ %",

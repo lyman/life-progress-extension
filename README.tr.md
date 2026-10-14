@@ -6,7 +6,7 @@ Varsayılan yapılandırma: doğum tarihi **1980-02-20** · beklenen ömür **30
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Italiano](README.it.md) · [Português (BR)](README.pt-BR.md) · [Русский](README.ru.md) · [Nederlands](README.nl.md) · [Polski](README.pl.md) · **Türkçe** · [العربية](README.ar.md) · [हिन्दी](README.hi.md) · [ไทย](README.th.md) · [Tiếng Việt](README.vi.md) · [Bahasa Indonesia](README.id.md)
 
-## Tarayıcı uzantısı (Edge / Chrome ve diğer Chromium tabanlılar · v1.3.2)
+## Tarayıcı uzantısı (Edge / Chrome ve diğer Chromium tabanlılar · v1.3.3)
 
 Kod `extension/` klasöründedir ve üç giriş noktası vardır:
 

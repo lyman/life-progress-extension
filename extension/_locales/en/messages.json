@@ -3,7 +3,10 @@
   "extDesc":           { "message": "New tab page + toolbar popup with your life progress bar." },
   "cmdOpenPopup":      { "message": "Open the Life Progress popup" },
   "pageTitle":         { "message": "Life Progress" },
-  "label":             { "message": "Life Progress" },
+  "label": {
+    "message": "Life is only $days$ days",
+    "placeholders": { "days": { "content": "$1" } }
+  },
   "searchPlaceholder": { "message": "Search…" },
   "progressAria": {
     "message": "Life progress $pct$%",

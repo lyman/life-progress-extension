@@ -3,7 +3,10 @@
   "extDesc":           { "message": "Nova aba + popup com a barra de progresso da sua vida." },
   "cmdOpenPopup":      { "message": "Abrir o popup de progresso da vida" },
   "pageTitle":         { "message": "Progresso da vida" },
-  "label":             { "message": "Progresso da vida" },
+  "label": {
+    "message": "A vida dura apenas $days$ dias",
+    "placeholders": { "days": { "content": "$1" } }
+  },
   "searchPlaceholder": { "message": "Pesquisar…" },
   "progressAria": {
     "message": "Progresso da vida $pct$%",

@@ -3,7 +3,10 @@
   "extDesc":           { "message": "Trang thẻ mới + cửa sổ pop-up hiển thị thanh tiến độ cuộc đời của bạn." },
   "cmdOpenPopup":      { "message": "Mở cửa sổ tiến độ cuộc đời" },
   "pageTitle":         { "message": "Tiến độ cuộc đời" },
-  "label":             { "message": "Tiến độ cuộc đời" },
+  "label": {
+    "message": "Cuộc đời chỉ vỏn vẹn $days$ ngày",
+    "placeholders": { "days": { "content": "$1" } }
+  },
   "searchPlaceholder": { "message": "Tìm kiếm…" },
   "progressAria": {
     "message": "Tiến độ cuộc đời $pct$%",

@@ -3,7 +3,10 @@
   "extDesc":           { "message": "Новая вкладка + всплывающее окно с индикатором прогресса вашей жизни." },
   "cmdOpenPopup":      { "message": "Открыть окно прогресса жизни" },
   "pageTitle":         { "message": "Прогресс жизни" },
-  "label":             { "message": "Прогресс жизни" },
+  "label": {
+    "message": "Жизнь длится всего $days$ дней",
+    "placeholders": { "days": { "content": "$1" } }
+  },
   "searchPlaceholder": { "message": "Поиск…" },
   "progressAria": {
     "message": "Прогресс жизни $pct$%",

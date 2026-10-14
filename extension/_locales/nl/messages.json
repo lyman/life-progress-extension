@@ -3,7 +3,10 @@
   "extDesc":           { "message": "Nieuw tabblad + pop-up met je levensvoortgangsbalk." },
   "cmdOpenPopup":      { "message": "Levensvoortgang-pop-up openen" },
   "pageTitle":         { "message": "Levensvoortgang" },
-  "label":             { "message": "Levensvoortgang" },
+  "label": {
+    "message": "Het leven duurt maar $days$ dagen",
+    "placeholders": { "days": { "content": "$1" } }
+  },
   "searchPlaceholder": { "message": "Zoeken…" },
   "progressAria": {
     "message": "Levensvoortgang $pct$%",

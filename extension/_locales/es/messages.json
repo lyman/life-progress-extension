@@ -3,7 +3,10 @@
   "extDesc":           { "message": "Página de nueva pestaña + ventana emergente con la barra de progreso de tu vida." },
   "cmdOpenPopup":      { "message": "Abrir la ventana de progreso de vida" },
   "pageTitle":         { "message": "Progreso de vida" },
-  "label":             { "message": "Progreso de vida" },
+  "label": {
+    "message": "La vida son solo $days$ días",
+    "placeholders": { "days": { "content": "$1" } }
+  },
   "searchPlaceholder": { "message": "Buscar…" },
   "progressAria": {
     "message": "Progreso de vida $pct$%",
