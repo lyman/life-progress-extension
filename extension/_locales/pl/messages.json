@@ -4,7 +4,7 @@
   "cmdOpenPopup":      { "message": "Otwórz okno postępu życia" },
   "pageTitle":         { "message": "Postęp życia" },
   "label": {
-    "message": "Życie to tylko $days$ dni",
+    "message": "Życie to tylko ulotne $days$ dni",
     "placeholders": { "days": { "content": "$1" } }
   },
   "searchPlaceholder": { "message": "Szukaj…" },

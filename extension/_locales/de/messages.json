@@ -4,7 +4,7 @@
   "cmdOpenPopup":      { "message": "Lebensfortschritt-Popup öffnen" },
   "pageTitle":         { "message": "Lebensfortschritt" },
   "label": {
-    "message": "Das Leben hat nur $days$ Tage",
+    "message": "Das Leben verrinnt – nur $days$ Tage",
     "placeholders": { "days": { "content": "$1" } }
   },
   "searchPlaceholder": { "message": "Suchen…" },

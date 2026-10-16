@@ -4,7 +4,7 @@
   "cmdOpenPopup":      { "message": "Ouvrir la fenêtre de progression de vie" },
   "pageTitle":         { "message": "Progression de vie" },
   "label": {
-    "message": "La vie ne dure que $days$ jours",
+    "message": "La vie n'est que $days$ jours éphémères",
     "placeholders": { "days": { "content": "$1" } }
   },
   "searchPlaceholder": { "message": "Rechercher…" },

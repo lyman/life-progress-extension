@@ -4,7 +4,7 @@
   "cmdOpenPopup":      { "message": "人生の進捗ポップアップを開く" },
   "pageTitle":         { "message": "人生の進捗" },
   "label": {
-    "message": "人生はたった $days$ 日",
+    "message": "人生は儚い $days$ 日",
     "placeholders": { "days": { "content": "$1" } }
   },
   "searchPlaceholder": { "message": "検索…" },

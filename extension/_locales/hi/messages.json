@@ -4,7 +4,7 @@
   "cmdOpenPopup":      { "message": "जीवन प्रगति पॉपअप खोलें" },
   "pageTitle":         { "message": "जीवन प्रगति" },
   "label": {
-    "message": "जीवन बस $days$ दिनों का है",
+    "message": "जीवन बस $days$ दिनों का सपना है",
     "placeholders": { "days": { "content": "$1" } }
   },
   "searchPlaceholder": { "message": "खोजें…" },

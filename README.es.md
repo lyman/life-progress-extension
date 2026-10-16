@@ -6,7 +6,7 @@ Configuración predeterminada: fecha de nacimiento **1980-02-20** · esperanza d
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · **Español** · [Français](README.fr.md) · [Deutsch](README.de.md) · [Italiano](README.it.md) · [Português (BR)](README.pt-BR.md) · [Русский](README.ru.md) · [Nederlands](README.nl.md) · [Polski](README.pl.md) · [Türkçe](README.tr.md) · [العربية](README.ar.md) · [हिन्दी](README.hi.md) · [ไทย](README.th.md) · [Tiếng Việt](README.vi.md) · [Bahasa Indonesia](README.id.md)
 
-## Extensión de navegador (Edge / Chrome y otros Chromium · v1.3.3)
+## Extensión de navegador (Edge / Chrome y otros Chromium · v1.3.4)
 
 El código está en `extension/`, con tres puntos de entrada:
 

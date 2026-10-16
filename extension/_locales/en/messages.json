@@ -4,7 +4,7 @@
   "cmdOpenPopup":      { "message": "Open the Life Progress popup" },
   "pageTitle":         { "message": "Life Progress" },
   "label": {
-    "message": "Life is only $days$ days",
+    "message": "Life is but $days$ fleeting days",
     "placeholders": { "days": { "content": "$1" } }
   },
   "searchPlaceholder": { "message": "Search…" },

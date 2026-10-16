@@ -4,7 +4,7 @@
   "cmdOpenPopup":      { "message": "Buka popup kemajuan hidup" },
   "pageTitle":         { "message": "Kemajuan hidup" },
   "label": {
-    "message": "Hidup hanya $days$ hari",
+    "message": "Hidup bagai sekejap, hanya $days$ hari",
     "placeholders": { "days": { "content": "$1" } }
   },
   "searchPlaceholder": { "message": "Cari…" },

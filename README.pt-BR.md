@@ -6,7 +6,7 @@ Configuração padrão: data de nascimento **1980-02-20** · expectativa de vida
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Italiano](README.it.md) · **Português (BR)** · [Русский](README.ru.md) · [Nederlands](README.nl.md) · [Polski](README.pl.md) · [Türkçe](README.tr.md) · [العربية](README.ar.md) · [हिन्दी](README.hi.md) · [ไทย](README.th.md) · [Tiếng Việt](README.vi.md) · [Bahasa Indonesia](README.id.md)
 
-## Extensão de navegador (Edge / Chrome e outros Chromium · v1.3.3)
+## Extensão de navegador (Edge / Chrome e outros Chromium · v1.3.4)
 
 O código está em `extension/`, com três pontos de entrada:
 

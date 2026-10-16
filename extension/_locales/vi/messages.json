@@ -4,7 +4,7 @@
   "cmdOpenPopup":      { "message": "Mở cửa sổ tiến độ cuộc đời" },
   "pageTitle":         { "message": "Tiến độ cuộc đời" },
   "label": {
-    "message": "Cuộc đời chỉ vỏn vẹn $days$ ngày",
+    "message": "Cuộc đời thoáng qua, chỉ $days$ ngày",
     "placeholders": { "days": { "content": "$1" } }
   },
   "searchPlaceholder": { "message": "Tìm kiếm…" },

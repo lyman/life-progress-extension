@@ -4,7 +4,7 @@
   "cmdOpenPopup":      { "message": "Yaşam ilerlemesi penceresini aç" },
   "pageTitle":         { "message": "Yaşam ilerlemesi" },
   "label": {
-    "message": "Hayat yalnızca $days$ gün",
+    "message": "Hayat göz açıp kapayıncaya dek $days$ gün",
     "placeholders": { "days": { "content": "$1" } }
   },
   "searchPlaceholder": { "message": "Ara…" },

@@ -4,7 +4,7 @@
   "cmdOpenPopup":      { "message": "Abrir o popup de progresso da vida" },
   "pageTitle":         { "message": "Progresso da vida" },
   "label": {
-    "message": "A vida dura apenas $days$ dias",
+    "message": "A vida é apenas $days$ dias fugazes",
     "placeholders": { "days": { "content": "$1" } }
   },
   "searchPlaceholder": { "message": "Pesquisar…" },

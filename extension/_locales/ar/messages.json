@@ -4,7 +4,7 @@
   "cmdOpenPopup":      { "message": "فتح نافذة تقدّم الحياة" },
   "pageTitle":         { "message": "تقدّم الحياة" },
   "label": {
-    "message": "الحياة ليست سوى $days$ يومًا",
+    "message": "الحياة ليست سوى ومضة من $days$ يومًا",
     "placeholders": { "days": { "content": "$1" } }
   },
   "searchPlaceholder": { "message": "بحث…" },

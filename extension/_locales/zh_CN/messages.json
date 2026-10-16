@@ -4,7 +4,7 @@
   "cmdOpenPopup":      { "message": "打开人生进度弹窗" },
   "pageTitle":         { "message": "人生进度" },
   "label": {
-    "message": "人生不过短短 $days$ 天",
+    "message": "人生不过恍惚 $days$ 天",
     "placeholders": { "days": { "content": "$1" } }
   },
   "searchPlaceholder": { "message": "搜索…" },

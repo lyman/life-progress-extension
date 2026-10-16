@@ -4,7 +4,7 @@
   "cmdOpenPopup":      { "message": "Levensvoortgang-pop-up openen" },
   "pageTitle":         { "message": "Levensvoortgang" },
   "label": {
-    "message": "Het leven duurt maar $days$ dagen",
+    "message": "Het leven is maar $days$ vluchtige dagen",
     "placeholders": { "days": { "content": "$1" } }
   },
   "searchPlaceholder": { "message": "Zoeken…" },

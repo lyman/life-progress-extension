@@ -6,7 +6,7 @@ Configurazione predefinita: data di nascita **1980-02-20** · aspettativa di vit
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · **Italiano** · [Português (BR)](README.pt-BR.md) · [Русский](README.ru.md) · [Nederlands](README.nl.md) · [Polski](README.pl.md) · [Türkçe](README.tr.md) · [العربية](README.ar.md) · [हिन्दी](README.hi.md) · [ไทย](README.th.md) · [Tiếng Việt](README.vi.md) · [Bahasa Indonesia](README.id.md)
 
-## Estensione del browser (Edge / Chrome e altri Chromium · v1.3.3)
+## Estensione del browser (Edge / Chrome e altri Chromium · v1.3.4)
 
 Il codice si trova in `extension/`, con tre punti di ingresso:
 

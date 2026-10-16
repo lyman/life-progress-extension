@@ -4,7 +4,7 @@
   "cmdOpenPopup":      { "message": "Открыть окно прогресса жизни" },
   "pageTitle":         { "message": "Прогресс жизни" },
   "label": {
-    "message": "Жизнь длится всего $days$ дней",
+    "message": "Жизнь промелькнёт — всего $days$ дней",
     "placeholders": { "days": { "content": "$1" } }
   },
   "searchPlaceholder": { "message": "Поиск…" },

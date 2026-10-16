@@ -4,7 +4,7 @@
   "cmdOpenPopup":      { "message": "인생 진행률 팝업 열기" },
   "pageTitle":         { "message": "인생 진행률" },
   "label": {
-    "message": "인생은 겨우 $days$ 일",
+    "message": "인생은 아득하게 스치는 $days$ 일",
     "placeholders": { "days": { "content": "$1" } }
   },
   "searchPlaceholder": { "message": "검색…" },

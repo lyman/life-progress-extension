@@ -6,7 +6,7 @@ Standaardconfiguratie: geboortedatum **1980-02-20** · verwachte levensduur **30
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Italiano](README.it.md) · [Português (BR)](README.pt-BR.md) · [Русский](README.ru.md) · **Nederlands** · [Polski](README.pl.md) · [Türkçe](README.tr.md) · [العربية](README.ar.md) · [हिन्दी](README.hi.md) · [ไทย](README.th.md) · [Tiếng Việt](README.vi.md) · [Bahasa Indonesia](README.id.md)
 
-## Browserextensie (Edge / Chrome en andere Chromium-browsers · v1.3.3)
+## Browserextensie (Edge / Chrome en andere Chromium-browsers · v1.3.4)
 
 De code staat in `extension/`, met drie toegangspunten:
 

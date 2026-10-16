@@ -4,7 +4,7 @@
   "cmdOpenPopup":      { "message": "เปิดป๊อปอัปความคืบหน้าชีวิต" },
   "pageTitle":         { "message": "ความคืบหน้าชีวิต" },
   "label": {
-    "message": "ชีวิตมีเพียง $days$ วัน",
+    "message": "ชีวิตล่องลอยเพียง $days$ วัน",
     "placeholders": { "days": { "content": "$1" } }
   },
   "searchPlaceholder": { "message": "ค้นหา…" },
